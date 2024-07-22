@@ -1,0 +1,23 @@
+.qualify .column.one{
+    animation: scrollLeft;
+    animation-timeline: view();
+
+}
+.qualify .column.two{
+    animation: scrollRight;
+    animation-timeline: view();
+
+}
+
+@media (max-width:600px) {
+    .qualify .column{
+        
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width:760px) {
+    .qualify .column{
+        width: 400px !important;
+    }
+}
