@@ -54,5 +54,11 @@
 
 }
 
+@media (max-width:450px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+
 
 
